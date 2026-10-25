@@ -8,6 +8,7 @@ Personal landing page: a single static page built with Alpine.js and Tailwind CS
 - `content.js`: all the text and links (projects, skills, experience). Edit this to change content.
 - `fade.js`: scroll effects (fade and blur by distance from the screen center, background parallax). Disabled for visitors who prefer reduced motion.
 - `styles.css`: compiled Tailwind output, committed because Pages has no build step. Do not edit by hand.
+- `favicon.svg`: the "AC" tab icon.
 - `techy.html`: an alternate terminal-style version. Nothing links to it.
 - `input.css`, `tailwind.config.js`, `build.sh`: Tailwind source and build.
 
