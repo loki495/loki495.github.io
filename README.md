@@ -8,7 +8,7 @@ Personal landing page: a single static page built with Alpine.js and Tailwind CS
 - `content.js`: all the text and links (projects, skills, experience). Edit this to change content.
 - `fade.js`: scroll effects (fade and blur by distance from the screen center, background parallax). Disabled for visitors who prefer reduced motion.
 - `styles.css`: compiled Tailwind output, committed because Pages has no build step. Do not edit by hand.
-- `favicon.svg`: the "AC" tab icon.
+- `favicon.svg`, `favicon.ico`, `favicon-32x32.png`, `favicon-16x16.png`: the "AC" tab icon in every format browsers ask for. The PNGs and `.ico` are rendered from the SVG (`rsvg-convert` and ImageMagick); regenerate them if the SVG changes.
 - `og.png`: 1200x630 social preview image used by the Open Graph and Twitter tags. `apple-touch-icon.png`: 180x180 home-screen icon.
 - `robots.txt`, `sitemap.xml`: crawler files (single page).
 - `techy.html`: an alternate terminal-style version. Nothing links to it, and it is marked `noindex`.
