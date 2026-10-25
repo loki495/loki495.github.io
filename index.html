@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Andres Crucitti — Senior PHP / Laravel Developer</title>
   <meta name="description" content="Senior PHP / Laravel developer, 15+ years. Open to remote roles.">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css?v=a816437e">
   <script>
-    tailwind.config = { darkMode: 'class' }
     document.documentElement.classList.toggle('dark', localStorage.dark ? localStorage.dark === '1' : matchMedia('(prefers-color-scheme: dark)').matches)
     function app() {
       return {
@@ -40,9 +39,9 @@
       mask-image: radial-gradient(ellipse 85% 80% at 50% 50%, #000 30%, transparent 90%);
     }
   </style>
-  <script src="content.js"></script>
-  <script src="fade.js" defer></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="content.js?v=d06c31e5"></script>
+  <script src="fade.js?v=1f95f68e" defer></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.17.5/dist/cdn.min.js" integrity="sha384-FYLKjwG3aohNhNZoVG8sY/5ntunm+MqylL90Q+rT3OM7AwV9/BKFjk/RjoIpIgsI" crossorigin="anonymous"></script>
 </head>
 <body class="bg-white text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-100"
       x-data="app()"
