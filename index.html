@@ -91,7 +91,7 @@
 }
   </script>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=ad1bad61">
+  <link rel="stylesheet" href="styles.css?v=dd6a8610">
   <script>
     document.documentElement.classList.toggle('dark', localStorage.dark ? localStorage.dark === '1' : matchMedia('(prefers-color-scheme: dark)').matches)
     function app() {
@@ -171,6 +171,7 @@
         x-init="const o = new IntersectionObserver(es => es.forEach(e => e.isIntersecting && (active = e.target.id)), { rootMargin: '-40% 0px -55% 0px' }); $nextTick(() => { $el.querySelectorAll('section[id]').forEach(s => o.observe(s)) })">
 
     <section id="about" class="relative flex min-h-screen scroll-mt-14 flex-col justify-center py-20 text-center sm:text-left">
+      <img src="headshot.jpg" alt="Andres Crucitti" width="112" height="112" class="mx-auto mb-6 h-28 w-28 rounded-full object-cover ring-2 ring-indigo-500/40 sm:mx-0">
       <p class="text-sm font-medium uppercase tracking-widest text-indigo-600 dark:text-indigo-400" x-text="role"></p>
       <h1 class="mt-3 text-5xl font-bold tracking-tight sm:text-6xl" x-text="name"></h1>
       <p class="mx-auto mt-6 max-w-2xl text-lg sm:mx-0 text-slate-700 dark:text-slate-300" x-text="pitch"></p>
