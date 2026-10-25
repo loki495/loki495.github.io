@@ -7,3 +7,4 @@ for f in styles.css content.js fade.js; do
   h=$(sha1sum "$f" | cut -c1-8)
   sed -i -E "s#\"$f(\?v=[0-9a-f]+)?\"#\"$f?v=$h\"#" index.html techy.html
 done
+sed -i -E "s#(\"dateModified\": \")[0-9-]+#\1$(date +%F)#" index.html
